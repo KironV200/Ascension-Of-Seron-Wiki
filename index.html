@@ -21,28 +21,29 @@
         }
 
         header {
-            display: flex;
-            align-items: center;
-            padding: 20px 40px;
+            text-align: center;
+            padding: 40px 20px;
             background: linear-gradient(90deg, #1a0324, #3b0b4f);
             border-bottom: 2px solid #4bff7a;
         }
 
         header img {
-            height: 80px;
-            margin-right: 20px;
+            width: 700px;
+            max-width: 95%;
+            filter: drop-shadow(0 0 35px #4bff7a);
+            margin-bottom: 20px;
         }
 
         header h1 {
             margin: 0;
-            font-size: 2.4rem;
+            font-size: 2.8rem;
             color: #7affff;
             text-shadow: 0 0 10px #4bff7a;
         }
 
         header h2 {
-            margin: 4px 0 0;
-            font-size: 1rem;
+            margin: 10px 0 0;
+            font-size: 1.2rem;
             color: #c0a6ff;
         }
 
@@ -87,6 +88,11 @@
             color: #4bff7a;
         }
 
+        .card a {
+            color: #7affff;
+            text-decoration: none;
+        }
+
         footer {
             text-align: center;
             padding: 15px;
@@ -96,67 +102,69 @@
     </style>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="Ascension Of Seron Logo">
-        <div>
-            <h1>Ascension Of Seron</h1>
-            <h2>Rise Of Seron: 10 Years Later</h2>
+
+<header>
+    <img src="logo.png" alt="Ascension Of Seron Logo">
+    <h1>Ascension Of Seron</h1>
+    <h2>Rise Of Seron: 10 Years Later</h2>
+</header>
+
+<main>
+    <section>
+        <h3>Plot</h3>
+
+        <p class="plot">
+            Ten years after the Final War of the Zavila Galaxy, every major faction chooses unity over conflict.
+            The Guardians, Black Prism, Nova Watch, Independents, Crusaders, Starline, and others merge into a single
+            peace‑keeping force known as The Unified Guardians.
+        </p>
+
+        <p class="plot">
+            Veterans retire or become commanders, training new generations and coordinating galaxy‑wide defense.
+            Some Guardians go independent but still support the organization when needed. The Zavila Galaxy enters its
+            most stable era in history as the Unified Guardians become a symbol of hope and order, and the original
+            Guardians transition from warriors to mentors, leaders, or peaceful civilians.
+        </p>
+
+        <p class="plot">
+            <strong>Ascension Of Seron</strong> — also known as <strong>Rise Of Seron: 10 Years Later</strong> —
+            follows Seron and The Guardians a decade after their last battle, now deep within the vast Zavila Galaxy.
+            New wars ignite, ancient forces awaken, and rising threats move to shatter the hard‑won peace of The United
+            Alliance. As old factions evolve and new enemies emerge, Seron and his Guardians must face a conflict that
+            will decide the fate of every world they swore to protect.
+        </p>
+    </section>
+
+    <section class="grid">
+        <div class="card">
+            <h4><a href="characters.html">Characters</a></h4>
+            <p>
+                Profiles of Seron, The Guardians, faction leaders, veterans, and the new generation of recruits who
+                carry the legacy of the Unified Guardians.
+            </p>
         </div>
-    </header>
 
-    <main>
-        <section>
-            <h3>Plot</h3>
-            <p class="plot">
-                Ten years after the Final War of the Zavila Galaxy, every major faction chooses unity over conflict.
-                The Guardians, Black Prism, Nova Watch, Independents, Crusaders, Starline, and others merge into a
-                single peace‑keeping force known as The Unified Guardians.
+        <div class="card">
+            <h4>Lore</h4>
+            <p>
+                Deep history of the Zavila Galaxy, the Final War, the rise of The Unified Guardians, and the ancient
+                forces now awakening beyond known space.
             </p>
-            <p class="plot">
-                Veterans retire or become commanders, training new generations and coordinating galaxy‑wide defense.
-                Some Guardians go independent but still support the organization when needed. The Zavila Galaxy enters
-                its most stable era in history as the Unified Guardians become a symbol of hope and order, and the
-                original Guardians transition from warriors to mentors, leaders, or peaceful civilians.
+        </div>
+
+        <div class="card">
+            <h4>Stories</h4>
+            <p>
+                Chronicles, side tales, and personal journeys that explore the lives, sacrifices, and choices of those
+                who fight to preserve the fragile peace.
             </p>
-            <p class="plot">
-                <strong>Ascension Of Seron</strong> — also known as <strong>Rise Of Seron: 10 Years Later</strong> —
-                follows Seron and The Guardians a decade after their last battle, now deep within the vast Zavila Galaxy.
-                New wars ignite, ancient forces awaken, and rising threats move to shatter the hard‑won peace of The
-                United Alliance. As old factions evolve and new enemies emerge, Seron and his Guardians must face a
-                conflict that will decide the fate of every world they swore to protect.
-            </p>
-        </section>
+        </div>
+    </section>
+</main>
 
-        <section class="grid">
-   <div class="card">
-    <h4><a href="characters.html" style="color:#7affff; text-decoration:none;">Characters</a></h4>
-    <p>
-        Profiles of Seron, The Guardians, faction leaders, veterans, and the new generation of recruits
-        who carry the legacy of the Unified Guardians.
-    </p>
-</div>
+<footer>
+    Ascension Of Seron — The Zavila Galaxy, ten years after the Final War.
+</footer>
 
-
-            <div class="card">
-                <h4>Lore</h4>
-                <p>
-                    Deep history of the Zavila Galaxy, the Final War, the rise of The Unified Guardians, and the
-                    ancient forces now awakening beyond known space.
-                </p>
-            </div>
-
-            <div class="card">
-                <h4>Stories</h4>
-                <p>
-                    Chronicles, side tales, and personal journeys that explore the lives, sacrifices, and choices
-                    of those who fight to preserve the fragile peace.
-                </p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        Ascension Of Seron — The Zavila Galaxy, ten years after the Final War.
-    </footer>
 </body>
 </html>
